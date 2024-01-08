@@ -1,8 +1,13 @@
 package guru.qa;
 
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hye Egor!");
+        System.out.println(getMessage());
+    }
+
+    private static String getMessage() {
+       return "Hye Egor!";
     }
 }
