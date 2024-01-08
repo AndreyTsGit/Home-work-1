@@ -1,8 +1,9 @@
 package guru.qa;
 
 public class Main {
+    private static String msg = "Hello Egor!!!!"
 
     public static void main(String[] args) {
-        System.out.println("Hye Egor!");
+        System.out.println(msg);
     }
 }
