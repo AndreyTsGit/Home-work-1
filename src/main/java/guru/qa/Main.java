@@ -2,12 +2,9 @@ package guru.qa;
 
 
 public class Main {
+    private static String msg = "Hello Egor!!!!";
 
     public static void main(String[] args) {
-        System.out.println(getMessage());
-    }
-
-    private static String getMessage() {
-       return "Hye Egor!";
+        System.out.println(msg);
     }
 }
